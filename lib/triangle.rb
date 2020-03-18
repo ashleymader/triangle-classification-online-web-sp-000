@@ -9,6 +9,8 @@ class Triangle
     @sides << s3
   end
   
+  def kind 
+  
   class TriangleError < StandardError
     
   end
