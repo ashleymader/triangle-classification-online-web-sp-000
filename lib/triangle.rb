@@ -16,7 +16,7 @@ class Triangle
   def valid? 
     side_sum = @sides[0] + @sides[1] 
     side_3 = @sides[2]
-    if side_sum < side_3
+    if side_sum < side_3 && 
       true 
     end
   end
