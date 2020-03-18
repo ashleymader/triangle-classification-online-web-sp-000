@@ -14,7 +14,7 @@ class Triangle
   end
   
   def valid? 
-    if s1 + s2 > s3 
+    if @sides[0] + @sides[1] > @sides[3]
       valid
   end
   
