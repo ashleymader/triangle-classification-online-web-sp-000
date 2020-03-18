@@ -1,4 +1,6 @@
 class Triangle
   
-  def kind(:equilateral, :isosceles)
+  def kind(:equilateral, :isosceles, :scalene)
+    
+    
 end
