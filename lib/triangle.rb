@@ -2,7 +2,8 @@ class Triangle
   
   attr_accessor :equilateral, :isosceles, :scalene
   
-  def kind(s1, s2, s3)
+  def initialize(s1, s2, s3)
+    @sides = []
     
   end
   
