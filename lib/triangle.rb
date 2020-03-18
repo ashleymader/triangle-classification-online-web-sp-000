@@ -10,7 +10,7 @@ class Triangle
   end
   
   def kind 
-    valid?
+    if valid?
       if @sides.uniq.length == 1
          :equilateral
       elsif @sides.uniq.length == 2
@@ -20,7 +20,7 @@ class Triangle
       end
     else
       raise TriangleError
-   
+   end
   end
     
 
