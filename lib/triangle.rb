@@ -10,8 +10,12 @@ class Triangle
   end
   
   def kind 
+    
+  end
   
   class TriangleError < StandardError
-    
+    def message 
+      "Triangle is invalid"
+    end
   end
 end
