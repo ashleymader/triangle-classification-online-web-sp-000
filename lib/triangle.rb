@@ -27,10 +27,9 @@ class Triangle
   
   def valid? 
     side_sum_1 = @sides[0] + @sides[1] 
-    side_sum_2 - @sides[1] + @sides[2]
-    side_sum_3 = @sides[0] + @sides[1] 
-    side_sum_2 - @sides[1] + @sides[2]
-    if side_sum > side_3 && @sides.none? {|i| i <= 0}
+    side_sum_2 - @sides[0] + @sides[2]
+    side_sum_3 = @sides[1] + @sides[2] 
+    if side_sum_1 > @sides[2] && side_sum_2 > @sides[1] && side_sum_3 > @sides[0] && @sides.none? {|i| i <= 0}
       true 
     else 
       false
