@@ -12,11 +12,11 @@ class Triangle
   def kind 
     if valid?
       if @sides.uniq.length == 1
-        return :equilateral
+         :equilateral
       elsif @sides.uniq.length == 2
-        return :isosceles
+         :isosceles
       else
-        return :scalene
+         :scalene
       end
     else
       raise TriangleError
