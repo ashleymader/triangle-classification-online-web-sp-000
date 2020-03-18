@@ -30,6 +30,8 @@ class Triangle
     side_3 = @sides[2]
     if side_sum < side_3 && @sides.none? {|i| i <= 0}
       true 
+    else 
+      false
     end
   end
   
