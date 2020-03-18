@@ -14,7 +14,9 @@ class Triangle
   end
   
   def valid? 
-    
+    if s1 + s2 > s3 
+      valid
+  end
   
   class TriangleError < StandardError
     def message 
