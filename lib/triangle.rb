@@ -5,4 +5,8 @@ class Triangle
   def kind(attributes)
     
   end
+  
+  class TriangleError < StandardError
+    
+  end
 end
