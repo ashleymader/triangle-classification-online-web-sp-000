@@ -1,4 +1,4 @@
 class Triangle
   
-  def kind()
+  def kind(:equilateral,)
 end
